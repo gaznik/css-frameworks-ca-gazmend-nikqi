@@ -1,2 +1,19 @@
 @import "variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+//Make footer stick to bottom:
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+
+.search {
+    max-width: 20px;
+}
+
