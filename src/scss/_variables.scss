@@ -12,25 +12,17 @@ $green:   #29cd2b ;
 $teal:    #2ba581 ;
 $cyan:    #147f94 ;
 
-$white:    #fff ;
-$gray-100: #e7eef6 ;
-$gray-200: #aebac6 ;
-$gray-300: #5b646e ;
-$gray-400: #8d959e ;
-$gray-500: #5b626a ;
-$gray-600: #313437 ;
-$gray-700: #495057 ;
-$gray-800: #1c2127 ;
+
 $gray-900: #1a1b1d ;
-$black:    rgb(21, 19, 19) ;
+
 
 // scss-docs-start theme-color-variables
-$primary:       $teal;
+$primary:       $pink;
 $secondary:     $gray-900;
 $success:       $green;
 $info:          $cyan;
 $warning:       $green;
 $danger:        $red;
 $light:         $yellow;
-$dark:          $pink;
+$dark:          $gray-900;
 
