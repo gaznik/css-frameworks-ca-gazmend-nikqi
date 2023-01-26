@@ -28,26 +28,28 @@
   </div>
 </header> 
       <main>
-        <div class="container" style="width: 25rem;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mt-5">
           <form action="/profile.html">
             <h1 class="h3 mb-3 fw-normal">Register</h1>
 <!-- NAME -->
-            <div class="form-floating">
+            <div class="form-floating mb-3">
                 <input type="name" class="form-control" id="floatingInput" placeholder="Name" pattern="^[\w]+$" required>
                 <label for="floatingInput">Name</label>
               </div>
 <!-- EMAIL -->
-            <div class="form-floating">
+            <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
               <label for="floatingInput">Email address</label>
             </div>
 <!-- PASSWORD -->
-            <div class="form-floating">
+            <div class="form-floating mb-3">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password" minLength= "8" required>
               <label for="floatingPassword">Password</label>
             </div>
 <!-- IMAGE -->
-            <div class="form-floating">
+            <div class="form-floating mb-3">
                 <input type="link" class="form-control" id="floatingPassword" placeholder="Image">
                 <label for="floatingInput">Image</label>
               </div>
@@ -60,6 +62,8 @@
             <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
             <p class="mt-5 mb-3 text-muted">© 2023</p>
           </form>
+          </div>
+          </div>
         </div>
       </main>
       <div class="container">

@@ -29,19 +29,20 @@
         </div>
       </header> 
 
-      <main class="">
-        <div class="container text-center">
-        <h1>Welcome to my social media page</h1>
-        </div>
+      <main>
+        
+        <div class="container">
+          <h1>Welcome to my social media page</h1>
+          <div class="row">
 <!-- SEARCH -->
-        <div class="container" style="width: 25rem;">
+        <div class="col-md-5 mt-5">
         <label for="exampleDataList" class="form-label"></label>
 <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
 <!-- SEARCH BUTTON -->
 <a href="profile.html"><button type="button" class="btn btn-warning mt-2">Search</button></a>
         
 <!-- MAKE POST -->
-      <div class="mb-3 mt-5">
+      <div class="mb-3 mt-5 card">
           <label for="exampleFormControlTextarea1" class="form-label">Write a post</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           <div class="mb-3">
@@ -50,35 +51,38 @@
           </div>
           <a href="#"><button type="button" class="btn btn-warning">Post</button></a>
         </div>
-</div>
+
+          </div>
 <!-- LIST OF LATEST POSTS -->
+<div class="col-md-6">
         <h2 class="mt-5">Latest posts</h2>
-        
-        
-        <div class="card mb-3" style="width: 40rem;">
+        <div class="card mb-3">
           <div class="card-body">
             <h5 class="card-title">Hello there</h5>
             <p class="card-text">The things that make me different are the things that make me, me.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
-          <img src="img/piglet.png" class="card-img-bottom" style="width: 20rem;" alt="...">
+          <img src="img/piglet.png" class="card-img-bottom" alt="...">
         </div>
-        <div class="card mb-3" style="width: 40rem;">
+        <div class="card mb-3">
           <div class="card-body">
             <h5 class="card-title">It's a good day</h5>
             <p class="card-text">Tiggers never go on being sad.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
-          <img src="img/rabbit.png" class="card-img-bottom" style="width: 20rem;" alt="...">
+          <img src="img/rabbit.png" class="card-img-bottom" alt="...">
         </div>
-        <div class="card" style="width: 40rem;">
+        <div class="card">
           <div class="card-body">
             <h5 class="card-title">Hii</h5>
             <p class="card-text">I always said Tiggers could climb trees. Not that it’s easy, mind you. Of course, there’s the coming-down too. Which will be difficult unless one fell, when it would be easy.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
-          <img src="img/tigger.png" class="card-img-bottom" style="width: 20rem;" alt="...">
+          <img src="img/tigger.png" class="card-img-bottom" alt="...">
         </div>
+      </div>
+      </div>
+    </div>
   
       </main>
 <!-- FOOTER -->
