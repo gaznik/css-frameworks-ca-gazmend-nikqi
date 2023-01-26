@@ -9,6 +9,7 @@
     <title>Login page</title>
 </head>
 <body>
+<!-- HEADER -->
     <header class="p-3 text-bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -29,26 +30,30 @@
         </div>
       </header> 
       <main>
-        <div class="container">
+        <div class="container" style="width: 25rem;">
           <form action="/profile.html">
             <h1 class="h3 mb-3 fw-normal">Register</h1>
+<!-- NAME -->
             <div class="form-floating">
                 <input type="name" class="form-control" id="floatingInput" placeholder="Name" pattern="^[\w]+$" required>
                 <label for="floatingInput">Name</label>
               </div>
+<!-- EMAIL -->
             <div class="form-floating">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
               <label for="floatingInput">Email address</label>
             </div>
+<!-- PASSWORD -->
             <div class="form-floating">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password" minLength= "8" required>
               <label for="floatingPassword">Password</label>
             </div>
+<!-- IMAGE -->
             <div class="form-floating">
                 <input type="link" class="form-control" id="floatingPassword" placeholder="Image">
                 <label for="floatingInput">Image</label>
               </div>
-        
+<!-- REMEMBER ME -->
             <div class="checkbox mb-3">
               <label>
                 <input type="checkbox" value="remember-me"> Remember me
@@ -60,6 +65,7 @@
         </div>
       </main>
       <div class="container">
+<!-- FOOTER -->
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>

@@ -9,18 +9,17 @@
     <title>Login page</title>
 </head>
 <body>
+  <!-- HEADER -->
     <header class="p-3 text-bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
             </a>
-    
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
               <li><a href="profile.html" class="nav-link px-2 text-white">Profile</a></li>
             </ul>
-
             <div class="text-end">
               <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
               <a href="register.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
@@ -28,27 +27,32 @@
           </div>
         </div>
       </header> 
+
       <main>
-        <div class="container">
+
+<!-- LOG IN FORM-->
+        <div class="container" style="width: 25rem;">
           <form>
             <h1 class="h3 mb-3 fw-normal">Log in</h1>
-        
+<!-- EMAIL -->
             <div class="form-floating">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
             </div>
+<!-- PASSWORD -->
             <div class="form-floating">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
               <label for="floatingPassword">Password</label>
             </div>
-        
+<!-- REMEMBER ME -->
             <div class="checkbox mb-3">
               <label>
                 <input type="checkbox" value="remember-me"> Remember me
               </label>
             </div>
+<!-- SUBMIT BUTTON-->
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <p class="mt-5 mb-3 text-muted">© 2022–2023</p>
+            <p class="mt-5 mb-3 text-muted">© 2023</p>
           </form>
         </div>
       </main>
