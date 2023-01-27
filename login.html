@@ -32,28 +32,21 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 mt-5">
-          <form action="/profile.html">
-            <h1 class="h3 mb-3 fw-normal">Log in</h1>
-<!-- EMAIL -->
-            <div class="form-floating">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
-            </div>
-<!-- PASSWORD -->
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
-            </div>
-<!-- REMEMBER ME -->
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me"> Remember me
-              </label>
-            </div>
-<!-- SUBMIT BUTTON-->
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <p class="mt-5 mb-3 text-muted">© 2023</p>
-          </form>
+              <form action="/profile.html">
+                <h1 class="h3 mb-3 fw-normal">Login</h1>
+    <!-- EMAIL -->
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
+                  <label for="floatingInput">Email address</label>
+                </div>
+    <!-- PASSWORD -->
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+                <p class="mt-5 mb-3 text-muted">© 2023</p>
+              </form>
         </div>
           </div>
         </div>
